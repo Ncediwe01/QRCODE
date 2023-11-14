@@ -1,0 +1,105 @@
+body {
+
+ background-image: url(../ppp.jpg);
+   background-size: 100% auto;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #cd05ff88;
+
+}
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #bd66f3;
+  }
+  
+  .active {
+    background-color: #3854d1;
+  } 
+  
+p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: white;
+     margin-left: 200px;
+     position: relative;
+     top: 30px;
+   
+
+
+}
+
+.code{
+    margin-top: 119px;
+    margin-left: 130px;
+    position: relative;
+    bottom: 80px;
+}
+.p1{
+    color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+     position: relative;
+      top: 50px;
+}
+
+.box1{
+    width: 500px;
+    height: 500px;
+    border-radius: 25px;
+    background-color: rgba(151, 7, 180, 0.747);
+    margin-left: 500px;
+    margin-top: 90px;
+
+}
+@media screen and (max-width: 360px) {
+    body{
+        width: 100%;
+        background-size: auto 100%;
+        height: 100vh;
+    }
+   .box1{
+    margin-left: 35px;
+    width: 250px;
+    height: 250px;
+
+   }
+   .code{
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    position: relative;
+    left:-50px;
+    
+   }
+   p{
+    margin-left: 50px;
+   }
+.p1{
+    margin-left: -12px;
+}
+       
+    }
+    
+    
+
+
